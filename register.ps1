@@ -11,6 +11,9 @@ New-Item -ItemType Directory -Path $toolDir -Force | Out-Null
 # 1. 生成包装脚本：写日志 + 调用 commit.ps1
 @"
 `$ErrorActionPreference = 'Continue'
+# 让 PowerShell 按 UTF-8 解析 git 等外部命令的输出，避免中文乱码
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+`$OutputEncoding = [System.Text.Encoding]::UTF8
 `$log = '$logFile'
 
 # 日志超过 2MB 自动清空，避免无限增长
