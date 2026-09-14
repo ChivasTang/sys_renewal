@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 400" width="460" height="400">
+<title>図 5-1 サーバ構成図（管理サーバ 1 + Apache + 管理対象サーバ 2 の冗長化構成）</title>
+<defs><marker id="arr" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#335C99"/></marker></defs>
+<g font-family="'MS PGothic','ＭＳ Ｐゴシック','Meiryo','メイリオ','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" fill="#000">
+<rect x="8" y="8" width="444" height="384" rx="4" fill="#E9A9DA" stroke="#B266A3" stroke-width="2"/>
+<polygon points="128,22 332,22 322,35 332,48 128,48 138,35" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="230" y="40" font-size="15" text-anchor="middle" font-weight="bold">WebLogic</text>
+<rect x="36" y="64" width="388" height="312" fill="#DDF3DD" stroke="#7FAF7F" stroke-width="1.5"/>
+<rect x="150" y="72" width="160" height="26" rx="6" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="230" y="90" font-size="14" text-anchor="middle" font-weight="bold">ドメイン</text>
+<polygon points="96.0,102.0 124.5,122.7 113.6,156.3 78.4,156.3 67.5,122.7" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="96.0" y="128.2" font-size="13" text-anchor="middle">管理</text>
+<text x="96.0" y="143.8" font-size="13" text-anchor="middle">サーバ</text>
+<rect x="196" y="106" width="68" height="20" fill="#F6C9E6" stroke="#A0607F" stroke-width="1.2"/>
+<text x="230.0" y="120.7" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">Apache</text>
+<polygon points="230.0,130.0 258.5,150.7 247.6,184.3 212.4,184.3 201.5,150.7" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="230.0" y="156.2" font-size="13" text-anchor="middle">WEB</text>
+<text x="230.0" y="171.8" font-size="13" text-anchor="middle">サーバ</text>
+<path d="M230,190 L230,214 L140,214 L140,236" fill="none" stroke="#335C99" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M230,190 L230,214 L320,214 L320,236" fill="none" stroke="#335C99" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="106" y="240" width="68" height="20" fill="#F6C9E6" stroke="#A0607F" stroke-width="1.2"/>
+<text x="140.0" y="254.7" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">WebLogic</text>
+<polygon points="140.0,264.0 176.1,290.3 162.3,332.7 117.7,332.7 103.9,290.3" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="140.0" y="296.2" font-size="13" text-anchor="middle">管理対象</text>
+<text x="140.0" y="311.8" font-size="13" text-anchor="middle">サーバ</text>
+<rect x="286" y="240" width="68" height="20" fill="#F6C9E6" stroke="#A0607F" stroke-width="1.2"/>
+<text x="320.0" y="254.7" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">WebLogic</text>
+<polygon points="320.0,264.0 356.1,290.3 342.3,332.7 297.7,332.7 283.9,290.3" fill="#FFFF66" stroke="#8A7A00" stroke-width="1.5"/>
+<text x="320.0" y="296.2" font-size="13" text-anchor="middle">管理対象</text>
+<text x="320.0" y="311.8" font-size="13" text-anchor="middle">サーバ</text>
+</g></svg>
