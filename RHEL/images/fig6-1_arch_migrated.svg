@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" width="1100" height="440">
+<title>図 6-1 システムアーキテクチャ概要（移行後）</title>
+<defs>
+<marker id="ae-blue" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#333399"/></marker>
+<marker id="as-blue" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#333399"/></marker>
+<marker id="ae-green" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#008000"/></marker>
+<marker id="as-green" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#008000"/></marker>
+<marker id="ae-orange" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#FF6600"/></marker>
+<marker id="as-orange" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#FF6600"/></marker>
+<marker id="ae-red" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#FF0000"/></marker>
+<marker id="as-red" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#FF0000"/></marker>
+<marker id="ae-dred" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#800000"/></marker>
+<marker id="as-dred" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#800000"/></marker>
+<marker id="ae-gray" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#808080"/></marker>
+<marker id="as-gray" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#808080"/></marker>
+</defs>
+<g font-family="'MS PGothic','ＭＳ Ｐゴシック','MS UI Gothic','Meiryo','メイリオ','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" fill="#000">
+<rect x="30" y="70" width="110" height="50" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="85" y="90" font-size="13" fill="#000" text-anchor="middle">FWSS</text>
+<text x="85" y="107" font-size="13" fill="#000" text-anchor="middle">APサーバ</text>
+<rect x="30" y="140" width="110" height="50" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="85" y="160" font-size="13" fill="#000" text-anchor="middle">FWSS</text>
+<text x="85" y="177" font-size="13" fill="#000" text-anchor="middle">DBサーバ</text>
+<rect x="30" y="210" width="110" height="50" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="85" y="230" font-size="13" fill="#000" text-anchor="middle">eHUB</text>
+<text x="85" y="247" font-size="13" fill="#000" text-anchor="middle">DBサーバ</text>
+<rect x="30" y="300" width="110" height="50" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="85" y="320" font-size="13" fill="#000" text-anchor="middle">SFDC</text>
+<text x="85" y="337" font-size="13" fill="#000" text-anchor="middle">DBサーバ</text>
+<rect x="200" y="25" width="640" height="375" rx="12" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5"/>
+<text x="212" y="47" font-size="16" fill="#000" font-weight="bold">対象サーバ群（AWS）</text>
+<rect x="220" y="60" width="600" height="145" fill="#DCE6F1" stroke="#FF0000" stroke-width="2"/>
+<text x="230" y="80" font-size="14" fill="#FF0000" font-weight="bold">AP/API サーバ（Amazon EC2・RHEL 9）</text>
+<rect x="240" y="92" width="150" height="34" rx="6" fill="#BDD7EE" stroke="#5B9BD5" stroke-width="1"/>
+<text x="315" y="114" font-size="14" fill="#000" text-anchor="middle">営プロ</text>
+<rect x="410" y="92" width="150" height="34" rx="6" fill="#BDD7EE" stroke="#5B9BD5" stroke-width="1"/>
+<text x="485" y="114" font-size="14" fill="#000" text-anchor="middle">統合顧客</text>
+<text x="400" y="143" font-size="11" fill="#FF0000" text-anchor="middle">Tomcat 9.0.1（AP）</text>
+<rect x="240" y="152" width="320" height="34" rx="6" fill="#C9A6E8" stroke="#7030A0" stroke-width="1"/>
+<text x="400" y="174" font-size="14" fill="#000" text-anchor="middle">標準API（参照／更新）</text>
+<text x="400" y="199" font-size="11" fill="#FF0000" text-anchor="middle">Tomcat 9.0.1（API）</text>
+<rect x="600" y="92" width="200" height="34" rx="6" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="700" y="114" font-size="14" fill="#FF0000" text-anchor="middle">ASTERIA Warp 2406</text>
+<rect x="600" y="152" width="200" height="34" rx="6" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="700" y="174" font-size="13" fill="#FF0000" text-anchor="middle">HULFT（RHEL 9 対応版）</text>
+<rect x="220" y="230" width="360" height="155" fill="#DCE6F1" stroke="#FF0000" stroke-width="2"/>
+<text x="230" y="250" font-size="14" fill="#FF0000" font-weight="bold">Amazon RDS for Oracle 19c</text>
+<rect x="240" y="268" width="140" height="46" rx="8" fill="#FFF2CC" stroke="#BF9000" stroke-width="1"/>
+<text x="310" y="287" font-size="13" fill="#000" text-anchor="middle">収集／連結</text>
+<text x="310" y="304" font-size="12" fill="#000" text-anchor="middle">（処理用DB）</text>
+<rect x="390" y="268" width="85" height="46" rx="8" fill="#FFF2CC" stroke="#BF9000" stroke-width="1"/>
+<text x="432" y="295" font-size="13" fill="#000" text-anchor="middle">主マスタ</text>
+<rect x="485" y="268" width="85" height="46" rx="8" fill="#FFF2CC" stroke="#BF9000" stroke-width="1"/>
+<text x="527" y="295" font-size="13" fill="#000" text-anchor="middle">展開</text>
+<rect x="390" y="330" width="85" height="30" rx="8" fill="#FFFFFF" stroke="#BF9000" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="432" y="350" font-size="13" fill="#000" text-anchor="middle">VOC</text>
+<text x="485" y="350" font-size="11" fill="#000">※未導入</text>
+<text x="230" y="377" font-size="11" fill="#FF0000">※ 1 インスタンスに収容（スキーマ／PDB 構成は要確認）</text>
+<rect x="600" y="230" width="200" height="155" fill="#FFFFFF" stroke="#FF0000" stroke-width="2"/>
+<text x="700" y="253" font-size="13" fill="#FF0000" text-anchor="middle" font-weight="bold">Data Loader サーバ</text>
+<text x="700" y="271" font-size="11" fill="#FF0000" text-anchor="middle">（Amazon EC2・Windows Server 2025）</text>
+<rect x="630" y="300" width="140" height="40" rx="6" fill="#FFFFFF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="700" y="318" font-size="13" fill="#000" text-anchor="middle">Salesforce</text>
+<text x="700" y="333" font-size="13" fill="#000" text-anchor="middle">Data Loader</text>
+<text x="700" y="370" font-size="10" fill="#000" text-anchor="middle">（SFDC 一括登録／抽出）</text>
+<rect x="900" y="60" width="120" height="70" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<rect x="906" y="66" width="120" height="70" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<rect x="912" y="72" width="120" height="70" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="960" y="100" font-size="13" fill="#000" text-anchor="middle">その他サーバ</text>
+<rect x="900" y="200" width="120" height="70" fill="#BFBFBF" stroke="#7F7F7F" stroke-width="1"/>
+<text x="960" y="240" font-size="13" fill="#000" text-anchor="middle">VOC APサーバ</text>
+<text x="895" y="290" font-size="12" fill="#000">※VOC は未導入</text>
+<path d="M140,95 L180,95 L180,110 L240,110" fill="none" stroke="#333399" stroke-width="2"/>
+<path d="M315,126 L315,152" fill="none" stroke="#333399" stroke-width="2"/>
+<path d="M485,126 L485,152" fill="none" stroke="#333399" stroke-width="2"/>
+<path d="M400,186 L400,230" fill="none" stroke="#333399" stroke-width="2"/>
+<path d="M900,80 L820,80" fill="none" stroke="#333399" stroke-width="1.5" stroke-dasharray="3,3"/>
+<path d="M140,165 L175,165 L175,418 L830,418 L830,169 L800,169" fill="none" stroke="#7F7F7F" stroke-width="1.5" marker-end="url(#ae-gray)"/>
+<path d="M140,235 L175,235" fill="none" stroke="#7F7F7F" stroke-width="1.5"/>
+<path d="M140,325 L175,325" fill="none" stroke="#7F7F7F" stroke-width="1.5"/>
+<path d="M830,109 L800,109" fill="none" stroke="#7F7F7F" stroke-width="1.5" marker-end="url(#ae-gray)"/>
+<path d="M700,418 L700,385" fill="none" stroke="#7F7F7F" stroke-width="1.5" marker-end="url(#ae-gray)"/>
+<text x="420" y="432" font-size="10" fill="#7F7F7F">バッチ連携（HULFT／ASTERIA／Data Loader）</text>
+<path d="M900,235 L875,235 L875,393 L432,393 L432,360" fill="none" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="6,4"/>
+<path d="M890,335 L940,335" fill="none" stroke="#333399" stroke-width="2"/>
+<text x="948" y="340" font-size="12" fill="#000">オンライン</text>
+<path d="M890,358 L940,358" fill="none" stroke="#7F7F7F" stroke-width="1.5"/>
+<text x="948" y="363" font-size="12" fill="#000">バッチ</text>
+<rect x="890" y="374" width="50" height="14" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+<text x="948" y="386" font-size="12" fill="#FF0000">移行変更箇所</text>
+</g></svg>

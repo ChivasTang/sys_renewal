@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 900" width="1560" height="900">
+<title>図 1-1 システム構成（移行後）</title>
+<defs>
+<marker id="ae-blue" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#333399"/></marker>
+<marker id="as-blue" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#333399"/></marker>
+<marker id="ae-green" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#008000"/></marker>
+<marker id="as-green" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#008000"/></marker>
+<marker id="ae-orange" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#FF6600"/></marker>
+<marker id="as-orange" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#FF6600"/></marker>
+<marker id="ae-red" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#FF0000"/></marker>
+<marker id="as-red" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#FF0000"/></marker>
+<marker id="ae-dred" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#800000"/></marker>
+<marker id="as-dred" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#800000"/></marker>
+<marker id="ae-gray" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L13,6 L0,12 Z" fill="#808080"/></marker>
+<marker id="as-gray" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M13,0 L0,6 L13,12 Z" fill="#808080"/></marker>
+</defs>
+<g font-family="'MS PGothic','ＭＳ Ｐゴシック','MS UI Gothic','Meiryo','メイリオ','Yu Gothic','Noto Sans CJK JP','Noto Sans JP',sans-serif" fill="#000">
+<rect x="90" y="20" width="16" height="44" rx="3" fill="#33332A" stroke="#1A1A14" stroke-width="1"/>
+<rect x="93" y="26" width="10" height="16" fill="#5C5C4E"/>
+<path d="M98,64 L98,84" fill="none" stroke="#808080" stroke-width="1.5"/>
+<text x="113" y="54" font-size="20" fill="#000">FWSSユーザ</text>
+<rect x="43" y="84" width="111" height="33" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="98.5" y="108" font-size="20" fill="#000" text-anchor="middle" font-weight="bold">docomo</text>
+<rect x="76" y="144" width="80" height="36" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="116" y="169" font-size="20" fill="#000" text-anchor="middle" font-weight="bold">FSW</text>
+<rect x="49" y="135" width="20" height="45" fill="#7A2A2A" stroke="#5A1A1A" stroke-width="1"/>
+<path d="M49,140 H69 M59.0,135 V140 M49,146 H69 M54.0,140 V146 M64.0,140 V146 M49,152 H69 M59.0,146 V152 M49,158 H69 M54.0,152 V158 M64.0,152 V158 M49,164 H69 M59.0,158 V164 M49,170 H69 M54.0,164 V170 M64.0,164 V170 M49,176 H69 M59.0,170 V176" stroke="#C99090" stroke-width="1" fill="none"/>
+<rect x="163" y="135" width="20" height="45" fill="#7A2A2A" stroke="#5A1A1A" stroke-width="1"/>
+<path d="M163,140 H183 M173.0,135 V140 M163,146 H183 M168.0,140 V146 M178.0,140 V146 M163,152 H183 M173.0,146 V152 M163,158 H183 M168.0,152 V158 M178.0,152 V158 M163,164 H183 M173.0,158 V164 M163,170 H183 M168.0,164 V170 M178.0,164 V170 M163,176 H183 M173.0,170 V176" stroke="#C99090" stroke-width="1" fill="none"/>
+<path d="M43,100 L18,100 L18,158 L49,158" fill="none" stroke="#808080" stroke-width="2"/>
+<path d="M183,158 L280,158 L280,69 L321,69" fill="none" stroke="#808080" stroke-width="2"/>
+<rect x="321" y="57" width="173" height="23" fill="#FFFFFF" stroke="#6A6AAA" stroke-width="1.5"/>
+<text x="407.5" y="74.5" font-size="19" fill="#000" text-anchor="middle">Load balancer</text>
+<path d="M379,80 L379,100" fill="none" stroke="#808080" stroke-width="2"/>
+<rect x="323" y="100" width="161" height="65" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="342" y="126" font-size="18" fill="#000">FWSS APサー</text>
+<text x="342" y="150" font-size="18" fill="#000">バ</text>
+<path d="M328,204 L328,244 A63.5,9 0 0 0 455,244 L455,204 Z" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<ellipse cx="391.5" cy="204" rx="63.5" ry="9" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="391.5" y="233.0" font-size="14" fill="#000" text-anchor="middle">FWSS DB</text>
+<path d="M392,165 L392,195" fill="none" stroke="#FF6600" stroke-width="2.5" marker-start="url(#as-orange)" marker-end="url(#ae-orange)"/>
+<text x="409" y="191" font-size="16" fill="#FF6600">JDBC</text>
+<rect x="560" y="180" width="520" height="300" fill="#FFFF99" stroke="#FF0000" stroke-width="2.5"/>
+<text x="572" y="203" font-size="17" fill="#FF0000" font-weight="bold">AP/API サーバ（Red Hat Enterprise Linux 9・Amazon EC2）</text>
+<rect x="580" y="215" width="480" height="40" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="820" y="240" font-size="15" fill="#FF0000" text-anchor="middle">Apache HTTP Server 2.4（TLS 終端／リバースプロキシ）</text>
+<rect x="580" y="275" width="220" height="55" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="690" y="297" font-size="15" fill="#FF0000" text-anchor="middle">Apache Tomcat 9.0.1（AP）</text>
+<text x="690" y="318" font-size="12" fill="#000" text-anchor="middle">営プロ／統合顧客 画面（Spring MVC 3）</text>
+<rect x="820" y="275" width="220" height="55" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="930" y="297" font-size="15" fill="#FF0000" text-anchor="middle">Apache Tomcat 9.0.1（API）</text>
+<text x="930" y="318" font-size="12" fill="#000" text-anchor="middle">標準API（参照／更新）</text>
+<rect x="820" y="350" width="220" height="32" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="930" y="371" font-size="14" fill="#FF0000" text-anchor="middle">HULFT（RHEL 9 対応版）</text>
+<rect x="820" y="392" width="220" height="32" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="930" y="413" font-size="14" fill="#FF0000" text-anchor="middle">ASTERIA Warp 2406</text>
+<rect x="580" y="392" width="220" height="32" fill="#FFFFFF" stroke="#FF0000" stroke-width="1.5"/>
+<text x="690" y="413" font-size="14" fill="#FF0000" text-anchor="middle">Amazon Corretto 11（Java 11）</text>
+<text x="572" y="446" font-size="11" fill="#FF0000">※現行の AP／API サーバと</text>
+<text x="572" y="460" font-size="11" fill="#FF0000">　DB サーバ上の連携ソフト</text>
+<text x="572" y="474" font-size="11" fill="#FF0000">　（ASTERIA／HULFT）を 1 台に統合</text>
+<rect x="560" y="520" width="520" height="310" fill="#FFFF99" stroke="#FF0000" stroke-width="2.5"/>
+<text x="572" y="543" font-size="17" fill="#FF0000" font-weight="bold">Amazon RDS for Oracle（Oracle Database 19c）</text>
+<text x="572" y="562" font-size="12" fill="#FF0000">Single-AZ／gp3／自動バックアップ【要確認】</text>
+<path d="M600,611 L600,720 A68.5,11 0 0 0 737,720 L737,611 Z" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<ellipse cx="668.5" cy="611" rx="68.5" ry="11" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<text x="668.5" y="662.5" font-size="14" fill="#000" text-anchor="middle">処理用DB</text>
+<path d="M790,579 L790,759 A135.0,14 0 0 0 1060,759 L1060,579 Z" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<ellipse cx="925.0" cy="579" rx="135.0" ry="14" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<text x="925.0" y="644.0" font-size="14" fill="#000" text-anchor="middle">統合顧客DB</text>
+<rect x="805" y="672" width="115" height="48" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<text x="862.5" y="691" font-size="14" fill="#000" text-anchor="middle">正マスタ</text>
+<text x="862.5" y="711" font-size="14" fill="#000" text-anchor="middle">スキーマ</text>
+<rect x="935" y="672" width="115" height="48" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
+<text x="992.5" y="691" font-size="14" fill="#000" text-anchor="middle">商圏</text>
+<text x="992.5" y="711" font-size="14" fill="#000" text-anchor="middle">スキーマ</text>
+<path d="M671,731 L671,770 L846,770 L846,720" fill="none" stroke="#FF0000" stroke-width="2.5" marker-end="url(#ae-red)"/>
+<text x="855" y="784" font-size="14" fill="#FF0000">マテリアライズドビュー</text>
+<path d="M654,731 L654,798 L1030,798 L1030,720" fill="none" stroke="#FF0000" stroke-width="2.5" marker-start="url(#as-red)"/>
+<text x="905" y="814" font-size="14" fill="#FF0000">マテリアライズドビュー</text>
+<path d="M708,731 L708,750 L1010,750" fill="none" stroke="#800000" stroke-width="2" stroke-dasharray="4,3"/>
+<path d="M883,750 L883,720" fill="none" stroke="#800000" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#ae-dred)"/>
+<path d="M1010,750 L1010,720" fill="none" stroke="#800000" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#ae-dred)"/>
+<text x="721" y="745" font-size="14" fill="#800000">DB Link</text>
+<rect x="1160" y="480" width="210" height="100" fill="#FFFFFF" stroke="#FF0000" stroke-width="2"/>
+<text x="1265" y="505" font-size="15" fill="#FF0000" text-anchor="middle" font-weight="bold">Data Loader サーバ</text>
+<text x="1265" y="526" font-size="12" fill="#FF0000" text-anchor="middle">Windows Server 2025・Amazon EC2</text>
+<text x="1265" y="550" font-size="13" fill="#FF0000" text-anchor="middle">Salesforce Data Loader</text>
+<text x="1265" y="569" font-size="11" fill="#FF0000" text-anchor="middle">（SFDC データ一括登録／抽出）</text>
+<rect x="1200" y="250" width="38" height="123" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="1219" y="272" font-size="16" fill="#000" text-anchor="middle">p</text>
+<text x="1219" y="296" font-size="16" fill="#000" text-anchor="middle">r</text>
+<text x="1219" y="320" font-size="16" fill="#000" text-anchor="middle">o</text>
+<text x="1219" y="344" font-size="16" fill="#000" text-anchor="middle">x</text>
+<text x="1219" y="368" font-size="16" fill="#000" text-anchor="middle">y</text>
+<rect x="1282" y="288" width="119" height="52" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="1341.5" y="308" font-size="18" fill="#000" text-anchor="middle">SFDC</text>
+<text x="1341.5" y="331" font-size="18" fill="#000" text-anchor="middle">APサーバ</text>
+<path d="M1282,384 L1282,423 A60.0,9 0 0 0 1402,423 L1402,384 Z" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<ellipse cx="1342.0" cy="384" rx="60.0" ry="9" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
+<text x="1342.0" y="412.5" font-size="14" fill="#000" text-anchor="middle">SFDC DB</text>
+<path d="M1341,340 L1341,375" fill="none" stroke="#FF6600" stroke-width="2.5" marker-start="url(#as-orange)" marker-end="url(#ae-orange)"/>
+<path d="M1075,43 L426,43 L426,57" fill="none" stroke="#333399" stroke-width="2.5"/>
+<path d="M428,80 L428,100" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<path d="M484,140 L520,140 L520,235 L580,235" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<text x="526" y="228" font-size="16" fill="#333399">https</text>
+<path d="M1176,74 L760,74 L760,215" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<path d="M1256,110 L830,110 L830,215" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<path d="M700,215 L700,141 L1180,141 L1180,300 L1282,300" fill="none" stroke="#333399" stroke-width="2.5" marker-start="url(#as-blue)"/>
+<text x="880" y="165" font-size="16" fill="#333399">https</text>
+<path d="M690,255 L690,275" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<path d="M930,255 L930,275" fill="none" stroke="#333399" stroke-width="2.5" marker-end="url(#ae-blue)"/>
+<path d="M800,302 L820,302" fill="none" stroke="#333399" stroke-width="2.5" marker-start="url(#as-blue)" marker-end="url(#ae-blue)"/>
+<text x="690" y="347" font-size="11" fill="#333399">http（同一サーバ内）</text>
+<path d="M790,330 L790,340 L810,340 L810,565" fill="none" stroke="#FF6600" stroke-width="2.5" marker-end="url(#ae-orange)"/>
+<path d="M840,330 L840,340 L810,340" fill="none" stroke="#FF6600" stroke-width="2.5"/>
+<path d="M810,500 L668,500 L668,600" fill="none" stroke="#FF6600" stroke-width="2.5" marker-end="url(#ae-orange)"/>
+<text x="818" y="500" font-size="16" fill="#FF6600">JDBC</text>
+<path d="M930,424 L930,440 L810,440" fill="none" stroke="#FF6600" stroke-width="2.5"/>
+<path d="M392,253 L392,366 L820,366" fill="none" stroke="#008000" stroke-width="2.5" marker-end="url(#ae-green)"/>
+<text x="404" y="300" font-size="16" fill="#008000">Hulft</text>
+<path d="M1040,408 L1150,408 L1150,320 L1279,320" fill="none" stroke="#008000" stroke-width="2.5" marker-end="url(#ae-green)"/>
+<text x="1090" y="382" font-size="14" fill="#008000">Asteria</text>
+<text x="1090" y="398" font-size="14" fill="#008000">SFDCアダプタ</text>
+<path d="M1219,480 L1219,373" fill="none" stroke="#333399" stroke-width="2.5"/>
+<text x="1226" y="440" font-size="13" fill="#333399">https</text>
+<text x="1226" y="456" font-size="11" fill="#FF0000">（Data Loader）</text>
+<path d="M1160,540 L1110,540 L1110,450 L1080,450" fill="none" stroke="#808080" stroke-width="2" stroke-dasharray="6,4" marker-start="url(#as-gray)" marker-end="url(#ae-gray)"/>
+<text x="1088" y="530" font-size="11" fill="#FF0000">ファイル連携</text>
+<text x="1088" y="544" font-size="11" fill="#FF0000">【要確認】</text>
+<rect x="1246" y="252" width="13" height="120" fill="#7A2A2A" stroke="#5A1A1A" stroke-width="1"/>
+<path d="M1246,257 H1259 M1252.5,252 V257 M1246,263 H1259 M1249.25,257 V263 M1255.75,257 V263 M1246,269 H1259 M1252.5,263 V269 M1246,275 H1259 M1249.25,269 V275 M1255.75,269 V275 M1246,281 H1259 M1252.5,275 V281 M1246,287 H1259 M1249.25,281 V287 M1255.75,281 V287 M1246,293 H1259 M1252.5,287 V293 M1246,299 H1259 M1249.25,293 V299 M1255.75,293 V299 M1246,305 H1259 M1252.5,299 V305 M1246,311 H1259 M1249.25,305 V311 M1255.75,305 V311 M1246,317 H1259 M1252.5,311 V317 M1246,323 H1259 M1249.25,317 V323 M1255.75,317 V323 M1246,329 H1259 M1252.5,323 V329 M1246,335 H1259 M1249.25,329 V335 M1255.75,329 V335 M1246,341 H1259 M1252.5,335 V341 M1246,347 H1259 M1249.25,341 V347 M1255.75,341 V347 M1246,353 H1259 M1252.5,347 V353 M1246,359 H1259 M1249.25,353 V359 M1255.75,353 V359 M1246,365 H1259 M1252.5,359 V365" stroke="#C99090" stroke-width="1" fill="none"/>
+<g transform="translate(1075,10)"><polygon points="14,46 70,42 84,58 28,62" fill="#C4C4C4" stroke="#7A7A7A" stroke-width="1"/><polygon points="20,50 66,47 74,56 30,59" fill="#A8A8A8" stroke="none"/><polygon points="2,2 56,0 70,44 16,46" fill="#333333" stroke="#6A6A6A" stroke-width="1"/><polygon points="7,6 53,4 65,40 19,42" fill="#0E0E0E" stroke="none"/></g>
+<text x="1147" y="41" font-size="20" fill="#000">電子レポートユーザ</text>
+<g transform="translate(1176,46)"><polygon points="14,46 70,42 84,58 28,62" fill="#C4C4C4" stroke="#7A7A7A" stroke-width="1"/><polygon points="20,50 66,47 74,56 30,59" fill="#A8A8A8" stroke="none"/><polygon points="2,2 56,0 70,44 16,46" fill="#333333" stroke="#6A6A6A" stroke-width="1"/><polygon points="7,6 53,4 65,40 19,42" fill="#0E0E0E" stroke="none"/></g>
+<text x="1249" y="69" font-size="20" fill="#000">統合顧客DB管理端末</text>
+<g transform="translate(1256,82)"><polygon points="14,46 70,42 84,58 28,62" fill="#C4C4C4" stroke="#7A7A7A" stroke-width="1"/><polygon points="20,50 66,47 74,56 30,59" fill="#A8A8A8" stroke="none"/><polygon points="2,2 56,0 70,44 16,46" fill="#333333" stroke="#6A6A6A" stroke-width="1"/><polygon points="7,6 53,4 65,40 19,42" fill="#0E0E0E" stroke="none"/></g>
+<text x="1328" y="108" font-size="20" fill="#000">営プロデータセンター</text>
+<g transform="translate(990,112)"><polygon points="14,46 70,42 84,58 28,62" fill="#C4C4C4" stroke="#7A7A7A" stroke-width="1"/><polygon points="20,50 66,47 74,56 30,59" fill="#A8A8A8" stroke="none"/><polygon points="2,2 56,0 70,44 16,46" fill="#333333" stroke="#6A6A6A" stroke-width="1"/><polygon points="7,6 53,4 65,40 19,42" fill="#0E0E0E" stroke="none"/></g>
+<text x="1066" y="137" font-size="20" fill="#000">営プロ営業ユーザ</text>
+<rect x="1160" y="640" width="259" height="230" fill="none" stroke="#4A4A6A" stroke-width="1.5"/>
+<rect x="1171" y="633" width="77" height="14" fill="#FFFFFF" stroke="none"/>
+<text x="1188" y="667" font-size="20" fill="#000" font-weight="bold">凡例</text>
+<path d="M1196,683 L1249,683" fill="none" stroke="#008000" stroke-width="3" marker-end="url(#ae-green)"/>
+<text x="1263" y="688" font-size="14" fill="#008000">FTP/Hulft</text>
+<path d="M1196,711 L1249,711" fill="none" stroke="#333399" stroke-width="3" marker-end="url(#ae-blue)"/>
+<text x="1263" y="716" font-size="14" fill="#333399">Web</text>
+<path d="M1196,740 L1249,740" fill="none" stroke="#FF6600" stroke-width="3" marker-end="url(#ae-orange)"/>
+<text x="1263" y="745" font-size="14" fill="#FF6600">JDBC</text>
+<path d="M1196,771 L1249,771" fill="none" stroke="#FF0000" stroke-width="3" marker-end="url(#ae-red)"/>
+<text x="1263" y="776" font-size="14" fill="#FF0000">マテリアライズドビュー</text>
+<path d="M1196,807 L1249,807" fill="none" stroke="#800000" stroke-width="3" stroke-dasharray="4,3" marker-end="url(#ae-dred)"/>
+<text x="1263" y="812" font-size="14" fill="#800000">DB Link</text>
+<rect x="1196" y="834" width="53" height="18" fill="none" stroke="#FF0000" stroke-width="2"/>
+<text x="1263" y="848" font-size="12" fill="#FF0000">赤字・赤枠：移行に伴う変更箇所</text>
+</g></svg>

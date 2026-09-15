@@ -54,10 +54,10 @@
 <ellipse cx="948.5" cy="775" rx="155.5" ry="14" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
 <text x="948.5" y="840.0" font-size="14" fill="#000" text-anchor="middle">統合顧客DB</text>
 <rect x="815" y="868" width="115" height="48" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
-<text x="872.5" y="887" font-size="14" fill="#000" text-anchor="middle">営プロ系</text>
+<text x="872.5" y="887" font-size="14" fill="#000" text-anchor="middle">正マスタ</text>
 <text x="872.5" y="907" font-size="14" fill="#000" text-anchor="middle">スキーマ</text>
 <rect x="958" y="868" width="117" height="48" fill="#FFFFFF" stroke="#4A4A6A" stroke-width="1.5"/>
-<text x="1016.5" y="887" font-size="14" fill="#000" text-anchor="middle">顧客</text>
+<text x="1016.5" y="887" font-size="14" fill="#000" text-anchor="middle">商圏</text>
 <text x="1016.5" y="907" font-size="14" fill="#000" text-anchor="middle">スキーマ</text>
 <rect x="1503" y="685" width="38" height="123" fill="#FFFFFF" stroke="#5A5A5A" stroke-width="1.5"/>
 <text x="1522" y="707" font-size="16" fill="#000" text-anchor="middle">p</text>
